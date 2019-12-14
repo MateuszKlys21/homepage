@@ -1,0 +1,18 @@
+body
+{
+    background-color: beige !important; /*important daje najwyzszy piorytet stylowi css lecz lepiej go nie używać */
+}
+section h2
+{
+    color: palevioletred; /*css patrzy od dołu na stylowanie */
+    color: skyblue;
+}
+.main_div
+{
+    background-color: salmon; /*Używać tylko klas*/    /*id/klasa/element*/
+}
+.main_div 
+{
+    background-color: aqua; /*nie używać zagnieżdzeń*/
+   
+}
