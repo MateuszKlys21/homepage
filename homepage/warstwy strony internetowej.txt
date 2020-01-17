@@ -1,0 +1,4 @@
+warstwa 0 - treść 
+w 1 -opakowanie treści 
+w 2- prezentacja treści "css"
+w 3- interakcja na stronie internetowej "JS" s

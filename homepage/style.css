@@ -1,0 +1,76 @@
+body
+{
+    background-color: beige !important; /*important daje najwyzszy piorytet stylowi css lecz lepiej go nie używać */
+  
+}
+section h2
+{
+    color: palevioletred; /*css patrzy od dołu na stylowanie */
+    color: skyblue;
+    
+    /*font-size: 10vh;
+    font-size: 10vw;
+    */ 
+
+}
+.main_div
+{
+    background-color: salmon; /*Używać tylko klas*/    /*id/klasa/element*/
+  
+}
+.main_div 
+{
+    background-color: aqua; /*nie używać zagnieżdzeń*/
+    margin: 100px auto;
+    position: relative;
+    
+}
+.sekcja
+{
+    display: inline-block;
+    width: 700px;
+    max-width: 100%;
+    overflow: scroll;
+    margin: 4px auto;
+    height: 200px;      
+    /*% zaciąga wartości z "rodzica" */
+    /*VW i vh są to procenty niezależne od niczego*/
+    border-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    
+   
+}
+.opis::first-line
+{
+    text-indent: 10px;
+}
+.pudlo, .pudlo2
+{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    top: 30px;
+    position: absolute;
+    box-sizing: border-box; /*Box sizing sprawia,że pomimo dodania paddingu i np marginesu wielkość diva się nie zmienia. Zmniejsza się wielkość elementu (zobacz style ekran z paddingiem, marginem itp) */
+    /*https://webkod.pl/kurs-css/wlasciwosci/pozycjonowanie/position*/
+    left: 30px;
+    z-index: 2;
+}
+.pudlo2
+{
+    background-color: rosybrown;
+    top: 60px;
+    left: 100px;
+    z-index: 1;/*element z najwyzszym z-index zawsze bedzie na wierchu im wyzsza liczba tym wiekszy "piorytet"*/
+}
+.arty
+{
+    max-width: 500px;
+}
+.starter
+{
+    position: fixed;
+}
